@@ -1,0 +1,107 @@
+{
+    "extractors": {},
+    "id": "f68d-4b0e-97d3",
+    "name": "side effect",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "983c-493b-977f",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "d4a5-4e21-86ff",
+                    "selector": ".article__body",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        "p:nth-child(5)"
+                    ],
+                    "container_id": "983c-493b-977f",
+                    "data": {
+                        "4ecf-4e05-b31f": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "f11e-43a1-986d",
+                            "required": false
+                        }
+                    },
+                    "id": "88ae-4043-9ba4",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".article__body > p:nth-child(5)",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" article__body \")]/p[5]"
+                },
+                {
+                    "accept_selectors": [
+                        "p:nth-child(9)"
+                    ],
+                    "container_id": "983c-493b-977f",
+                    "data": {
+                        "95c4-403f-a5e1": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "0532-40f0-9161",
+                            "required": false
+                        }
+                    },
+                    "id": "dc0d-4bd7-8e42",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".article__body > p:nth-child(9)",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" article__body \")]/p[9]"
+                },
+                {
+                    "accept_selectors": [
+                        "p:nth-child(22)"
+                    ],
+                    "container_id": "983c-493b-977f",
+                    "data": {
+                        "66a5-472f-b86c": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "1bf9-42ff-afcd",
+                            "required": false
+                        }
+                    },
+                    "id": "404e-46e4-b02c",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".article__body > p:nth-child(22)",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" article__body \")]/p[22]"
+                }
+            ]
+        }
+    },
+    "scrapes": "d4a5-4e21-86ff",
+    "spider": "www.nature.com",
+    "url": "https://www.nature.com/articles/d41586-021-00290-x",
+    "version": "0.13.3"
+}
